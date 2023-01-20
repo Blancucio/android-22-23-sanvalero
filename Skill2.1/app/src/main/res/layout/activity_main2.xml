@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnClaseAnonima"
+        android:layout_width="411dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/images"
+        android:text="BOTON CLASE ANONIMA"
+        app:layout_constraintBottom_toTopOf="@+id/btnImplements"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnImplements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:text="BOTON USANDO IMPLEMENTS"
+        app:layout_constraintBottom_toTopOf="@+id/btnOnClick"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="328dp"
+        android:text="BOTON USANDO ONCLICK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        android:onClick="onClick" />
+</androidx.constraintlayout.widget.ConstraintLayout>
