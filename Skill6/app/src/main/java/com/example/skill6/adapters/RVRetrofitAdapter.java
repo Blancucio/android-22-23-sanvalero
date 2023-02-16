@@ -46,7 +46,7 @@ public class RVRetrofitAdapter  extends RecyclerView.Adapter<RVRetrofitAdapter.R
     }
 
 
-    private class RVHolderRetrofit  extends RecyclerView.ViewHolder{
+    public class RVHolderRetrofit  extends RecyclerView.ViewHolder{
         TextView tvTitle;
         ImageView ivImage;
 
